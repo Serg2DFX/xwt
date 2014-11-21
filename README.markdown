@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/u0e9n96mgdpw7x9f?svg=true)](https://ci.appveyor.com/project/Serg2DFX/xwt)
+
 This document is an introduction to XWT, a cross-platform UI toolkit
 for creating desktop applications.
 
