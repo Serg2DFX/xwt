@@ -207,6 +207,7 @@ namespace Xwt.Mac
 		
 		public void SetCursor (CursorType cursor)
 		{
+			//bool showCursor = true;
 			NSCursor ctype;
 			if (cursor == CursorType.Arrow)
 				ctype = NSCursor.ArrowCursor;
@@ -229,11 +230,20 @@ namespace Xwt.Mac
 			else if (cursor == CursorType.ResizeUpDown)
 				ctype = NSCursor.ResizeUpDownCursor;
 			else if (cursor == CursorType.Invisible)
+			{
 				// TODO: load transparent cursor
-				Cursor = NSCursor.ArrowCursor;
+				ctype = NSCursor.ArrowCursor;
+				NSCursor.Hide();
+				//showCursor = false;
+			}
 			else
 				ctype = NSCursor.ArrowCursor;
 			// TODO: assign the cursor
+
+			/*if (showCursor)
+			{
+				NSCursor.Unhide();
+			}*/
 		}
 		
 		~ViewBackend ()

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -30,25 +30,28 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="nunit.core">
-      <HintPath>libs\nunit.core.dll</HintPath>
+      <HintPath>..\Libraries\Nunit\nunit.core.dll</HintPath>
     </Reference>
     <Reference Include="nunit.core.interfaces">
-      <HintPath>libs\nunit.core.interfaces.dll</HintPath>
+      <HintPath>..\Libraries\Nunit\nunit.core.interfaces.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>libs\nunit.framework.dll</HintPath>
+      <HintPath>..\Libraries\Nunit\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="nunit-console-runner">
-      <HintPath>libs\nunit-console-runner.dll</HintPath>
+      <HintPath>..\Libraries\Nunit\nunit-console-runner.dll</HintPath>
     </Reference>
     <Reference Include="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <Reference Include="gdk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <Reference Include="glib-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <Reference Include="nunit.util">
-      <HintPath>libs\nunit.util.dll</HintPath>
+      <HintPath>..\Libraries\Nunit\nunit.util.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
-    <Reference Include="atk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="atk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\GtkSharp2\atk-sharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GtkTestRunner\Main.cs" />
@@ -119,9 +122,7 @@
       <Name>Xwt</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="GtkTests\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Tests\ninep-ss.9.png">
       <LogicalName>ninep-ss.9.png</LogicalName>
@@ -147,5 +148,8 @@
     <EmbeddedResource Include="Tests\ninep-tt.9%402x.png">
       <LogicalName>ninep-tt.9@2x.png</LogicalName>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
 </Project>

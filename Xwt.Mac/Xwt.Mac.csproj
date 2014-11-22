@@ -47,6 +47,8 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="MonoMac">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\MonoMac\MonoMac.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

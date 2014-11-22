@@ -66,21 +66,23 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
-    <Reference Include="MonoMac" />
+    <Reference Include="MonoMac">
+      <HintPath>..\Libraries\MonoMac\MonoMac.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.core">
-      <HintPath>libs\nunit.core.dll</HintPath>
+      <HintPath>..\Libraries\Nunit\nunit.core.dll</HintPath>
     </Reference>
     <Reference Include="nunit.core.interfaces">
-      <HintPath>libs\nunit.core.interfaces.dll</HintPath>
+      <HintPath>..\Libraries\Nunit\nunit.core.interfaces.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>libs\nunit.framework.dll</HintPath>
+      <HintPath>..\Libraries\Nunit\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="nunit.util">
-      <HintPath>libs\nunit.util.dll</HintPath>
+      <HintPath>..\Libraries\Nunit\nunit.util.dll</HintPath>
     </Reference>
     <Reference Include="nunit-console-runner">
-      <HintPath>libs\nunit-console-runner.dll</HintPath>
+      <HintPath>..\Libraries\Nunit\nunit-console-runner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

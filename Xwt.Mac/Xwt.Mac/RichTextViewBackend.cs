@@ -262,7 +262,7 @@ namespace Xwt.Mac
 				return CreateStringFromHTML (text.ToString (), out docAttributes);
 			} finally {
 				text = null;
-				xmlWriter.Dispose ();
+				xmlWriter.Close(); // Close-Dispose .Dispose (); protected level
 				xmlWriter = null;
 				docAttributes = null;
 			}

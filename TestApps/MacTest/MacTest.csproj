@@ -41,7 +41,10 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="MonoMac" />
+    <Reference Include="MonoMac">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libraries\MonoMac\MonoMac.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />

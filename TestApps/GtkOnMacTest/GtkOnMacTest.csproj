@@ -28,8 +28,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="MonoMac, Version=0.0.0.0, Culture=neutral">
-      <Private>True</Private>
+    <Reference Include="MonoMac">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libraries\MonoMac\MonoMac.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
