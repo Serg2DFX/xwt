@@ -46,6 +46,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{60945E3E-FE28-48ED-A86C-D31D64E6429D}"
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
+		Mono.MonoMac.targets = Mono.MonoMac.targets
 	EndProjectSection
 EndProject
 Global
