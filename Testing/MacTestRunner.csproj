@@ -88,9 +88,9 @@
   <ItemGroup>
     <Compile Include="MacTestRunner\Main.cs" />
     <Compile Include="Tests\**\*.cs" />
-    <Compile Include="Tests\DrawingTestsBase.cs" />
+    <!--<Compile Include="Tests\DrawingTestsBase.cs" />
     <Compile Include="Tests\NinePatchTests.cs" />
-    <Compile Include="Tests\ScrollableWidgetTests.cs" />
+    <Compile Include="Tests\ScrollableWidgetTests.cs" />-->
   </ItemGroup>
   <ItemGroup>
     <None Include="MacTestRunner\Info.plist" />
