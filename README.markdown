@@ -8,7 +8,10 @@ a discussion group for XWT is available here:
 
 http://groups.google.com/group/xwt-list
 
-Continuous Integration (AppVeyor): [![Build status](https://ci.appveyor.com/api/projects/status/u0e9n96mgdpw7x9f?svg=true)](https://ci.appveyor.com/project/Serg2DFX/xwt)
+Continuous Integration (AppVeyor without tests): [![Build status](https://ci.appveyor.com/api/projects/status/u0e9n96mgdpw7x9f?svg=true)](https://ci.appveyor.com/project/Serg2DFX/xwt)
+
+Continuous Integration (AppVeyor): [![Build status](https://ci.appveyor.com/api/projects/status/j6bm69arxlt47a97?svg=true)](https://ci.appveyor.com/project/Serg2DFX/xwt-8xt2y)
+
 
 Introduction
 ============
