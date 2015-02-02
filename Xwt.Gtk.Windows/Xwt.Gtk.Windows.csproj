@@ -50,6 +50,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\AssemblyReferenceInfo.cs">
+      <Link>Properties\AssemblyReferenceInfo.cs</Link>
+    </Compile>
     <Compile Include="Enums.cs" />
     <Compile Include="GtkWindowsDesktopBackend.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,5 +73,8 @@
       <Name>Xwt</Name>
       <Private>False</Private>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Xwt.Gtk.Windows.nuspec" />
   </ItemGroup>
 </Project>

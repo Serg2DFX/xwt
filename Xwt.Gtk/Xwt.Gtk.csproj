@@ -66,6 +66,9 @@
     <Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\AssemblyReferenceInfo.cs">
+      <Link>AssemblyReferenceInfo.cs</Link>
+    </Compile>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Xwt.GtkBackend\LabelBackend.cs" />
     <Compile Include="Xwt.GtkBackend\PasswordEntryBackend.cs" />
@@ -183,6 +186,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Package.nuspec" />
     <None Include="Xwt.Gtk.dll.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

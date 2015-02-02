@@ -35,6 +35,9 @@
     <Reference Include="System.Xaml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\AssemblyReferenceInfo.cs">
+      <Link>AssemblyReferenceInfo.cs</Link>
+    </Compile>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Xwt.Backends\IPasswordEntryBackend.cs" />
     <Compile Include="Xwt\PasswordEntry.cs" />
@@ -324,7 +327,9 @@
     <Compile Include="Xwt\GridLines.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Xwt.nuspec" />
+  </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>
       <Properties>
